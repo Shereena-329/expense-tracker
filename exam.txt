@@ -1,0 +1,72 @@
+1: 7<class int>
+
+2:6
+
+3:7
+
+4:A
+
+5:2,4,6
+
+6:
+
+
+7: a="listen"
+   b="silent"
+   count=0
+   for i in a:
+       if i in b:
+          count+=1
+       print("anagram")
+
+
+8:numbers=[2,3,4,5,6,7]
+  largest=numbers[0]
+  result=[]
+  for i in range(len(numbers)):
+       if i>largest:
+          largest=i
+       reult.append(i)
+ print(result[-2])
+
+
+9:keys=["id","name","age"]
+  values=[101,"john",25]
+  student={}
+  for key in student:
+     key=keys
+     student(key)=values
+  print(student)
+
+            
+10:numbers=[1,2,3,4,6,7,8]
+   result=[]
+   count=0
+   for i in range(len(numbers)):
+      if i=numbers[i]+1:
+        count+=1
+      else:
+       result.append(i)
+   print(result)
+
+
+
+11:num=int(input("enter the number"))
+result=[]
+count=0
+   for i in num: 
+      count+=1
+      if i%num==0:
+        result.append(i)
+    if result.count>2:
+       print("prime")
+    else:
+        print("not prime")
+
+ 
+      
+
+
+      
+    
+          
